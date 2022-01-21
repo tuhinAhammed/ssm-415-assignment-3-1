@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    margin: auto;
+}
+.green{
+    width:700px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+}
+.red{
+    width: 240px;
+    height: 240px;
+    background-color: red;
+    position: absolute;
+    border-radius: 100%;
+    top: 18%;
+    left: 32%;
+}
+
+.facebook {
+    position: fixed;
+    left: 97%;
+    top: 40%;
+    width: 10%;
+    transition: 1s;
+    
+}
+.facebook:hover {
+    position: fixed;
+    left: 90%;
+    top: 40%;
+    width: 10%;
+    cursor: pointer;
+    
+}
+.youtube {
+    width: 14%;
+    margin-top: 351px;
+    margin-left: 97%;
+    transition: 1s;
+    position: fixed;
+}
+.youtube:hover{
+    width: 14%;
+    margin-top: 351px;
+    margin-left: 87%;
+    transition: 1s;
+    position: fixed;
+}
+.twiterr {
+    margin-left: 97%;
+    width: 10%;
+    margin-top: 27%;
+    transition: 1s;
+    position: fixed;
+}
+.twiterr:hover{
+    margin-left: 90%;
+    width: 10%;
+    margin-top: 27%;
+    transition: 1s;
+    position: fixed;
+}
+
